@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	font-family: 'Playfair Display', serif;
+	padding: 0; 
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+#top{
+	background-color: #0000FF;
+	border-bottom: 3px solid #0000cd ;
+	height: 40px;
+}
+
+#top h3{
+	float: left;
+	font-size: 1.4vw;
+	color: #FFFFFF;
+	line-height: 40px;
+}
+
+#fb {
+	float: left;
+	width: 10%;
+	height: 40px;
+}
+
+#top img{
+	float: left;
+	height: 76%;
+	margin-right: 3%;
+	padding: 5px;
+	
+}
+
+#fb img{
+	float: unset;
+	display: block;
+	margin: auto;
+}
+
+#mp,#pho,#em {
+	float: left;
+	height: 40px;
+	padding: 0 0 0 1.5%;
+}
+
+#mp{
+
+	width: 40%;
+}
+
+#pho {
+	width: 15%;
+}
+
+#em {
+	width: 29.5%;
+}
+
+.verticalline{
+	border-left: solid #FFFFFF;
+	border-width: 2px;
+	height: 30px;
+	margin-top: 5px;
+	float: left;
+}
+
+
+#logo{
+	width: 50%;
+	float: left;
+}
+
+
+#logo a img{
+	width: 70%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	display: block;
+	margin: auto;
+
+}
+
+#mm{
+	float: left;
+	width: 50%;
+}
+
+nav ul{
+ 	padding: 4%;
+}
+
+nav ul li{
+ 	list-style: none;
+ 	display: inline;
+ 	margin: auto;
+	padding-left: 3%;
+}
+
+nav a{
+ 	color: #696969;
+ 	text-decoration: none;	
+	font-size: 25px;
+	padding: 7px;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+}
+
+nav a:hover{
+	color: #0000FF;
+	border-bottom: 2px solid #0000FF ;
+}
+
+.active a{
+	color: #0000FF;
+	border-bottom: 2px solid #0000FF ;
+}
+
+.line{
+	clear: both;
+	border-bottom: 3px solid #0000cd ;
+}
+
+#text{
+	padding: 50px;
+	border-style:solid;
+	border-color: #0000cd;
+	border-width: 2px;
+	margin: 75px;
+}
+
+#text h3{
+	text-align: center;
+	padding: 20px 0 30px 0;
+}
+
+#text p{
+	text-align: justify;
+	line-height: 25px;
+}
+
+footer{
+	background-color: #0000FF;
+	color: white;
+	overflow: hidden;
+	width: 100%;
+} 
+
+#cont{
+	float: left;
+	width: 50%;
+	margin-top: 45px;
+}
+
+#logof img{
+	width: 70%;
+	margin-left: 15%;
+}
+
+#mapf img{
+	width: 35%;
+	margin: 20px 0 0 30%;
+}
+
+#details{
+	float: right;
+	margin: 45px 5% 3.5% 3.5%;
+	color: white;
+}
+
+#copyright{
+	clear: both;
+	float: right;
+	margin: 0 5% 10px 0px;
+	font-size: 10px;
+}

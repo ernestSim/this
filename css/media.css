@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1150px){
+
+	#logo{
+		width: 100%;
+		border-bottom: 3px solid #0000cd ;
+	}
+
+	#logo img{
+		max-width: 50%;
+		display: block;
+		margin: auto;
+	}	
+
+	#mm{
+		width: 100%;
+	}
+
+	nav ul{
+ 		padding: 2%;
+ 		text-align: center;
+	}
+
+	nav ul li{
+ 		display: inline;
+		padding-left: 5%;
+	}
+
+	nav a{
+		padding: 5px;
+	}
+
+	#top h3{
+		font-size: 1.7vw;
+	}
+
+	#mapcontainer{
+		width: 100%;
+	}
+
+	#detailsm{
+		width: 100%;
+		padding-bottom: 25px;
+	}
+
+	#detailsm h3{
+		text-align: center;
+	}
+
+	#detailsm p{
+		text-align: center;
+	}
+
+	#detailsm h2{
+ 		text-align: center;
+	}
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+	.verticalline{
+		display: none;
+	}
+
+	#top h3{
+		font-size: 2vw;
+	}
+
+	#top{
+		height: 80px;
+	}
+
+	#fb{
+		width: 30%;
+	}
+
+	#mp{
+		width: 68%;
+	}
+
+	#pho{
+		width: 30%;
+	}
+
+	#em{
+		width: 60%;
+		padding:0;
+	}
+	#fb img{
+		float: left;
+		margin-left: 4%;
+	}
+}
+
+
+@media only screen and (max-width: 690px){
+	#cont{
+		width: 100%;
+	}
+
+	#details{
+		width: 100%;
+	}
+		#details h3{
+		text-align: center;
+	}
+
+	#details p{
+		text-align: center;
+	}
+
+	#details h2{
+ 		text-align: center;
+	}
+
+
+	nav ul li{
+		float:none;
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding:0;
+	}
+
+	nav ul li a{
+		color: #696969;
+		padding:0;
+		display: block;
+		margin: 0;
+	}
+
+	nav ul li a:hover{
+		color: #0000FF;
+		border-bottom: none;
+	}
+
+	.active a{
+	color: #0000FF;
+	border-bottom: none;
+}
+
+	body{
+		min-width: 680px;
+	}
+}
+
+
+@media only screen and (max-width: 650px){
+	#top h3{
+		font-size: 20px;
+	}
+}
